@@ -10,10 +10,10 @@ import re
 app = Flask(__name__)
 
 
-consumer_key = 'V0sRTpI1aHfzhFGt6daNwy6Jm'
-consumer_secret = 'HjwNoplTLI04B7S9iZTrhyKaPID2cUJcvkQaktAYWWl6isaKoO'
-access_token = '1037575169211084800-dQXHLpcDXZS1dO2Xkmd3uFizk4ABll'
-access_token_secret = 'EqxfViZWqiCT81cqqqkdqCXBFbApnavsARADKoepmhT3H'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -26,10 +26,10 @@ netweet = 0
 ntweet = 0
 
 #try:
-MONGODB_URI = "mongodb://arcane:arcane159@ds153814.mlab.com:53814/saypeacebot"
+MONGODB_URI = ""
 client = MongoClient(MONGODB_URI, connectTimeoutMS=30000)
-db = client.get_database("saypeacebot") # Use saypeacebot database.   
-collection = db.ng2019election
+db = client.get_database("") # .   
+collection = ''
     #results = collection.find()
     #data = str(results.count())
     
